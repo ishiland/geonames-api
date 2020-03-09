@@ -1,9 +1,0 @@
-machine:
-  services:
-    - docker
-
-test:
-  pre:
-    - docker-compose up -d
-  override:
-    - docker-compose exec api python3 manage.py test
