@@ -142,12 +142,12 @@ class Geoname(db.Model):
             queries.append(Geoname.name.ilike('%{}%'.format(name)))
         if iso2:
             queries.append(Geoname.country_code == iso2.upper())
-        # if admin1:
-        #     queries.append(Admin1Code.name.ilike('%{}%'.format(admin1)))
-        # if admin2:
-        #     queries.append(Admin2Code.name.ilike('%{}%'.format(admin2)))
-        # if feature_code:
-        #     queries.append(Geoname.feature_code == feature_code.upper())
+        if admin1:
+            queries.append(Admin1Code.name.ilike('%{}%'.format(admin1)))
+        if admin2:
+            queries.append(Admin2Code.name.ilike('%{}%'.format(admin2)))
+        if feature_code:
+            queries.append(Geoname.feature_code == feature_code.upper())
         if feature_class:
             queries.append(Geoname.feature_class == feature_class.upper())
         return dump_results(execute_geoname_query(queries))
