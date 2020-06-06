@@ -1,0 +1,277 @@
+US.IL.101	Lawrence County	Lawrence County	4242758
+NZ.G1.021	Taupo District	Taupo District	2181743
+MX.17.021	Tetecala	Tetecala	8582389
+MX.05.049	Larráinzar	Larrainzar	8581735
+US.SD.049	Faulk County	Faulk County	5227752
+MX.24.021	Mexquitic de Carmona	Mexquitic de Carmona	8583310
+US.OH.021	Champaign County	Champaign County	5149757
+MX.31.021	Chichimilá	Chichimila	8583879
+US.CO.021	Conejos County	Conejos County	5417799
+US.TN.049	Fentress County	Fentress County	4621984
+US.MN.021	Cass County	Cass County	5020546
+US.TX.049	Brown County	Brown County	4676632
+HU.09.091	Soproni Járás	Soproni Jaras	9644140
+US.CA.081	San Mateo County	San Mateo County	5392427
+US.NJ.021	Mercer County	Mercer County	5101090
+IN.10.081	Bhiwani	Bhiwani	1275900
+US.MS.091	Marion County	Marion County	4434905
+MX.16.091	Tingüindín	Tingueindin	8582349
+US.MT.021	Dawson County	Dawson County	5647905
+US.MI.021	Berrien County	Berrien County	4985760
+MX.20.081	San Agustín Atenango	San Agustin Atenango	8582552
+MX.20.101	San Andrés Zabache	San Andres Zabache	8582572
+GH.09.101	Jomoro	Jomoro	7648989
+US.GA.021	Bibb County	Bibb County	4182755
+US.FL.101	Pasco County	Pasco County	4167895
+US.MN.049	Goodhue County	Goodhue County	5028232
+NG.27.101	Abadam	Abadam	8659822
+US.IA.091	Humboldt County	Humboldt County	4861343
+MX.28.021	El Mante	El Mante	8583468
+MX.11.021	Moroleón	Moroleon	8581915
+US.MT.091	Sheridan County	Sheridan County	5677503
+MX.29.021	Nanacamilpa de Mariano Arista	Nanacamilpa de Mariano Arista	8583510
+US.FL.021	Collier County	Collier County	4151550
+US.WV.101	Webster County	Webster County	4826636
+US.LA.091	Saint Helena Parish	Saint Helena Parish	4339724
+US.NM.021	Harding County	Harding County	5470675
+US.OH.081	Jefferson County	Jefferson County	5159079
+US.NC.101	Johnston County	Johnston County	4473631
+US.MT.049	Lewis and Clark County	Lewis and Clark County	5662129
+NZ.G2.049	Carterton District	Carterton District	2192570
+US.CO.091	Ouray County	Ouray County	5433677
+MX.32.049	Valparaíso	Valparaiso	8584006
+MX.21.091	Juan Galindo	Juan Galindo	8583135
+US.WY.021	Laramie County	Laramie County	5830051
+MX.19.049	Santiago	Santiago	8582469
+US.TX.081	Coke County	Coke County	5519174
+US.AL.049	DeKalb County	DeKalb County	4058479
+US.OK.021	Cherokee County	Cherokee County	4532932
+AF.13.101	Kabul	Kabul	7729752
+US.KY.021	Boyle County	Boyle County	4285317
+US.UT.021	Iron County	Iron County	5541004
+US.CA.091	Sierra County	Sierra County	5395582
+MX.30.101	Mariano Escobedo	Mariano Escobedo	8583746
+MX.15.049	Joquicingo	Joquicingo	8583682
+US.OR.021	Gilliam County	Gilliam County	5728364
+VN.92.101	Huyện Điện Biên Đông	Huyen GJien Bien GJong	1905100
+FI.09.091	Lappeenranta	Lappeenranta	9610692
+US.VA.021	Bland County	Bland County	4747931
+US.WI.091	Pepin County	Pepin County	5266547
+MX.30.021	Atoyac	Atoyac	8583570
+MX.10.021	Peñón Blanco	Penon Blanco	8581876
+US.CO.101	Pueblo County	Pueblo County	5435465
+MX.14.021	Casimiro Castillo	Casimiro Castillo	8582121
+US.TX.101	Cottle County	Cottle County	5519440
+US.NC.091	Hertford County	Hertford County	4470729
+US.TN.091	Johnson County	Johnson County	4633430
+US.LA.081	Red River Parish	Red River Parish	4338489
+US.NE.021	Burt County	Burt County	5064925
+US.KY.049	Clark County	Clark County	4287837
+CH.ZH.101	Bezirk Affoltern	Bezirk Affoltern	6458818
+SK.02.101	Okres Bratislava I	Okres Bratislava I	8986283
+FI.08.081	Kouvola	Kouvola	9610690
+MA.05.081	Azilal Province	Azilal Province	2556569
+AT.09.900	Wien Stadt	Wien Stadt	2761333
+US.KS.101	Lane County	Lane County	5445806
+US.IN.021	Clay County	Clay County	4255843
+MX.15.101	Tianguistenco	Tianguistenco	8582245
+US.MS.081	Lee County	Lee County	4433190
+US.MA.021	Norfolk County	Norfolk County	4945455
+US.IL.081	Jefferson County	Jefferson County	4241773
+US.IN.049	Fulton County	Fulton County	4920550
+US.TX.091	Comal County	Comal County	4682688
+US.MO.091	Howell County	Howell County	4391410
+US.AZ.021	Pinal County	Pinal County	5308916
+US.SC.021	Cherokee County	Cherokee County	4574428
+HU.10.101	Nyíradonyi Járás	Nyiradonyi Jaras	9644300
+HU.05.021	Budapest XXI.	Budapest XXI.	12059768
+US.GA.081	Crisp County	Crisp County	4190062
+US.SD.081	Lawrence County	Lawrence County	5766411
+MX.05.091	Tapilula	Tapilula	8581776
+US.IN.091	LaPorte County	LaPorte County	4922460
+US.IL.091	Kankakee County	Kankakee County	4898188
+BE.BRU.BRU	Bruxelles-Capitale	Bruxelles-Capitale	6693370
+US.WI.049	Iowa County	Iowa County	5257509
+MX.30.081	Ixhuatlancillo	Ixhuatlancillo	8583726
+US.MI.101	Manistee County	Manistee County	5000612
+US.OH.101	Marion County	Marion County	5161911
+US.MT.101	Toole County	Toole County	5682810
+US.GA.049	Charlton County	Charlton County	4187348
+US.OK.049	Garvin County	Garvin County	4537513
+BA.01.3343737	Kanton Sarajevo	Kanton Sarajevo	3343737
+US.IA.049	Dallas County	Dallas County	4853335
+MX.05.101	Tuxtla Gutiérrez	Tuxtla Gutierrez	8581785
+IN.24.101	Bīkāner	Bikaner	1275666
+US.MN.091	Martin County	Martin County	5036797
+US.NC.021	Buncombe County	Buncombe County	4458155
+US.OH.049	Franklin County	Franklin County	4512214
+US.GA.091	Dodge County	Dodge County	4191654
+MX.06.049	Nonoava	Nonoava	8581837
+CR.08.101	San José	San Jose	3621840
+US.WV.049	Marion County	Marion County	4813754
+MX.26.049	Quiriego	Quiriego	8583413
+US.ID.049	Idaho County	Idaho County	5596467
+US.AR.049	Fulton County	Fulton County	4111857
+MX.12.021	Coyuca de Benítez	Coyuca de Benitez	8581960
+US.PA.021	Cambria County	Cambria County	5182829
+US.WI.021	Columbia County	Columbia County	5249193
+US.IL.049	Effingham County	Effingham County	4237730
+MX.16.021	Charapan	Charapan	8582277
+DE.02.091	Upper Bavaria	Upper Bavaria	2861322
+US.MD.021	Frederick County	Frederick County	4355594
+MX.24.049	Villa de Ramos	Villa de Ramos	8583338
+US.IA.021	Buena Vista County	Buena Vista County	4849689
+US.KS.081	Haskell County	Haskell County	5445570
+US.ME.021	Piscataquis County	Piscataquis County	4975418
+US.NC.049	Craven County	Craven County	4462398
+US.ND.091	Steele County	Steele County	5062037
+CH.ZG.900	Zug	Zug	6458807
+US.IL.021	Christian County	Christian County	4235793
+AT.01.101	Eisenstadt Stadt	Eisenstadt Stadt	2780188
+IN.23.049	Amritsar	Amritsar	1278711
+MX.14.049	Jilotlán de los Dolores	Jilotlan de los Dolores	8582149
+US.UT.049	Utah County	Utah County	5784025
+US.MN.081	Lincoln County	Lincoln County	5034652
+US.NE.091	Hooker County	Hooker County	5696254
+US.SC.081	Saluda County	Saluda County	4594698
+MX.30.049	Cotaxtla	Cotaxtla	8583695
+US.KS.091	Johnson County	Johnson County	4273638
+US.CA.049	Modoc County	Modoc County	5568120
+MX.14.091	Teocaltiche	Teocaltiche	8582191
+US.VA.049	Cumberland County	Cumberland County	4754992
+AR.05.14140	Departamento de San Justo	Departamento de San Justo	3837121
+MX.14.081	Santa María de los Ángeles	Santa Maria de los Angeles	8582181
+US.MS.021	Claiborne County	Claiborne County	4421859
+MX.20.049	Magdalena Ocotlán	Magdalena Ocotlan	8582520
+US.KY.101	Henderson County	Henderson County	4294512
+US.KS.021	Cherokee County	Cherokee County	4269459
+US.ID.021	Boundary County	Boundary County	5586641
+US.MT.081	Ravalli County	Ravalli County	5673204
+US.MO.081	Harrison County	Harrison County	5055359
+CL.14.101	Provincia de Llanquihue	Provincia de Llanquihue	3882955
+US.NY.021	Columbia County	Columbia County	5113366
+US.VA.101	King William County	King William County	4767790
+US.TN.021	Cheatham County	Cheatham County	4612891
+US.NM.049	Santa Fe County	Santa Fe County	5490272
+US.KS.049	Elk County	Elk County	4270898
+DK.17.101	København	Kobenhavn	2618424
+US.NE.049	Deuel County	Deuel County	5694776
+MX.32.021	Jiménez del Teul	Jimenez del Teul	8583981
+US.OK.081	Lincoln County	Lincoln County	4541067
+US.PA.101	Philadelphia County	Philadelphia County	5205788
+US.SD.021	Campbell County	Campbell County	5763333
+US.ID.081	Teton County	Teton County	5609855
+US.MI.081	Kent County	Kent County	4998005
+US.TX.021	Bastrop County	Bastrop County	4672581
+MX.31.091	Tinum	Tinum	8583947
+US.AR.081	Little River County	Little River County	4119374
+MX.31.101	Umán	Uman	8583957
+US.FL.049	Hardee County	Hardee County	4158068
+US.NY.101	Steuben County	Steuben County	5139656
+US.CO.081	Moffat County	Moffat County	5579973
+US.NY.049	Lewis County	Lewis County	5124290
+US.LA.049	Jackson Parish	Jackson Parish	4328854
+MX.29.049	San Damián Texóloc	San Damian Texoloc	8583537
+MX.13.081	Zacualtipán de Ángeles	Zacualtipan de Angeles	8582099
+MX.13.049	Pisaflores	Pisaflores	8582068
+AE.01.101	Abu Dhabi Municipality	Abu Dhabi Municipality	12047239
+US.PA.091	Montgomery County	Montgomery County	5201756
+US.KY.091	Hancock County	Hancock County	4293950
+US.NY.081	Queens County	Queens County	5133268
+MX.21.101	Nauzontla	Nauzontla	8583145
+US.TN.081	Hickman County	Hickman County	4629047
+US.LA.101	Saint Mary Parish	Saint Mary Parish	4340232
+MX.06.021	Delicias	Delicias	8581818
+HU.08.081	Martonvásári Járás	Martonvasari Jaras	9644764
+US.ND.101	Ward County	Ward County	5692798
+MX.21.081	Ixcamilpa de Guerrero	Ixcamilpa de Guerrero	8583125
+IN.07.091	North Delhi	North Delhi	8335422
+US.KY.081	Grant County	Grant County	4293148
+US.FL.081	Manatee County	Manatee County	4163277
+US.IA.081	Hancock County	Hancock County	4859678
+MX.16.081	Susupuato	Susupuato	8582338
+MX.05.081	Simojovel	Simojovel	8581766
+US.AL.021	Chilton County	Chilton County	4055067
+US.WV.021	Gilmer County	Gilmer County	4806966
+MX.16.049	Madero	Madero	8582306
+MX.15.091	Teoloyucan	Teoloyucan	8379474
+US.PA.081	Lycoming County	Lycoming County	5199318
+HU.03.049	Mezőkovácsházai Járás	Mezokovacshazai Jaras	9644284
+US.WI.101	Racine County	Racine County	5268253
+FI.10.101	Mikkeli	Mikkeli	9610694
+US.CA.101	Sutter County	Sutter County	5400390
+US.NE.081	Hamilton County	Hamilton County	5069604
+US.ND.081	Sargent County	Sargent County	5061439
+US.SC.049	Hampton County	Hampton County	4580988
+MX.13.021	Emiliano Zapata	Emiliano Zapata	8582041
+MA.05.091	Beni-Mellal	Beni-Mellal	2555742
+US.IN.081	Johnson County	Johnson County	4259727
+US.NV.021	Mineral County	Mineral County	5508393
+US.MI.091	Lenawee County	Lenawee County	4999081
+MX.20.021	Cosolapa	Cosolapa	8582492
+US.MI.049	Genesee County	Genesee County	4993785
+US.GA.101	Echols County	Echols County	4192932
+US.MO.021	Buchanan County	Buchanan County	4378897
+MX.20.091	San Andrés Huayápam	San Andres Huayapam	8582562
+US.WA.049	Pacific County	Pacific County	5806002
+US.WV.091	Taylor County	Taylor County	4824403
+US.VA.081	Greensville County	Greensville County	4762246
+US.OK.091	McIntosh County	McIntosh County	4542456
+US.MS.101	Newton County	Newton County	4438827
+US.VT.021	Rutland County	Rutland County	5240516
+US.OR.049	Morrow County	Morrow County	5741531
+US.CA.021	Glenn County	Glenn County	5352462
+US.MN.101	Murray County	Murray County	5038801
+US.SD.091	Marshall County	Marshall County	5229574
+MX.15.081	Tecámac	Tecamac	8379470
+US.ND.049	McHenry County	McHenry County	5690436
+IN.12.021	Jammu	Jammu	1269322
+US.SC.091	York County	York County	4601709
+MX.30.091	Jesús Carranza	Jesus Carranza	8583736
+MX.07.021	Nadadores	Nadadores	8583616
+US.TN.101	Lewis County	Lewis County	4636403
+MX.31.049	Mayapán	Mayapan	8583907
+US.AL.101	Montgomery County	Montgomery County	4076795
+US.PA.049	Erie County	Erie County	5188847
+MX.19.021	General Escobedo	General Escobedo	8582442
+US.NY.091	Saratoga County	Saratoga County	5136325
+US.WV.081	Raleigh County	Raleigh County	4819310
+US.MO.101	Johnson County	Johnson County	4392606
+US.CO.049	Grand County	Grand County	5577529
+FI.02.021	Åboland-Turunmaa	Aboland-Turunmaa	9610642
+US.AL.091	Marengo County	Marengo County	4074590
+MX.21.049	Chiconcuautla	Chiconcuautla	8583093
+US.AR.091	Miller County	Miller County	4121680
+MX.16.101	Tzitzio	Tzitzio	8582358
+VN.21.900	Thị Xã Hà Tiên	Thi Xa Ha Tien	1904958
+TL.AN.101	Ainaro	Ainaro	7910190
+DE.01.081	Regierungsbezirk Stuttgart	Regierungsbezirk Stuttgart	3214105
+US.AL.081	Lee County	Lee County	4072098
+MX.12.081	Iliatenco	Iliatenco	8582020
+US.SD.101	Moody County	Moody County	5229837
+US.AR.021	Clay County	Clay County	4105899
+MX.15.021	Coatepec Harinas	Coatepec Harinas	8583669
+US.NE.101	Keith County	Keith County	5696644
+US.ND.021	Dickey County	Dickey County	5058882
+US.MO.049	Clinton County	Clinton County	4381646
+US.MS.049	Hinds County	Hinds County	4429877
+US.AR.101	Newton County	Newton County	4123857
+VN.05.049	Huyện Quảng Uyên	Huyen Quang Uyen	11497303
+MX.31.081	Tekom	Tekom	8583937
+US.VA.091	Highland County	Highland County	4764100
+US.IN.101	Martin County	Martin County	4261020
+MX.05.021	Copainalá	Copainala	6955098
+AU.07.24600	Melbourne	Melbourne	7839805
+US.OH.091	Logan County	Logan County	5161156
+MX.12.049	Pilcaya	Pilcaya	8581989
+MX.26.021	La Colorada	La Colorada	8583385
+VN.44.021	Quận Bắc Từ Liêm	Quan Bac Tu Liem	11497491
+US.IA.101	Jefferson County	Jefferson County	4862494
+US.WA.021	Franklin County	Franklin County	5794976
+US.FL.091	Okaloosa County	Okaloosa County	4166818
+US.LA.021	Caldwell Parish	Caldwell Parish	4318597
+US.OK.101	Muskogee County	Muskogee County	4543342
+MX.21.021	Atzala	Atzala	8583067
+US.WI.081	Monroe County	Monroe County	5263335
+MX.14.101	Tonalá	Tonala	8582201
+US.NC.081	Guilford County	Guilford County	4469393

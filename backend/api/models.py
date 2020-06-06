@@ -1,45 +1,11 @@
-from geoalchemy2 import Geometry, WKTElement
+import os
+from geoalchemy2 import Geometry, WKTElement, func
+from geoalchemy2.comparator import Comparator
 from sqlalchemy import and_
 from api import db
 from api.utils import dump_geo, dump_results
 
-
-def execute_geoname_query(queries):
-    """
-    executes Geonames query
-    """
-    return db.session.query(Geoname.geonameid.label('id'),
-                            Geoname.name.label('name'),
-                            Admin1Code.name.label('admin1'),
-                            Admin2Code.name.label('admin2'),
-                            Geoname.country_code,
-                            Geoname.feature_class,
-                            Geoname.feature_code,
-                            Geoname.population,
-                            Geoname.elevation,
-                            Geoname.gtopo30,
-                            Geoname.timezone,
-                            Geoname.moddate,
-                            Geoname.the_geom) \
-        .outerjoin(Admin1Code,
-                   and_(Geoname.admin1 == Admin1Code.admin1,
-                        Geoname.country_code == Admin1Code.country_code)) \
-        .outerjoin(Admin2Code, and_(Geoname.admin2 == Admin2Code.admin2,
-                                    Admin1Code.admin1 == Admin2Code.admin1)) \
-        .filter(*queries) \
-        .group_by(Geoname.geonameid,
-                  Geoname.name,
-                  Admin1Code.name,
-                  Admin2Code.name,
-                  Geoname.country_code,
-                  Geoname.feature_class,
-                  Geoname.feature_code,
-                  Geoname.population,
-                  Geoname.elevation,
-                  Geoname.gtopo30,
-                  Geoname.timezone,
-                  Geoname.moddate,
-                  Geoname.the_geom).all()
+API_QUERY_LIMIT = os.getenv('API_QUERY_LIMIT', 10)
 
 
 class Admin1Code(db.Model):
@@ -130,7 +96,7 @@ class Geoname(db.Model):
         """
         Geocodes a place or city.
         :param iso2: 2 digit country code
-        :param name: a geoname. This field is required.
+        :param name: city or placename.
         :param admin1: First level administrative code. Ex., a state in the US. This field is optional.
         :param admin2: Second level administrative code. Ex., a county in the US. This field is optional.
         :param feature_code: Geoname Feature Code
@@ -150,26 +116,103 @@ class Geoname(db.Model):
             queries.append(Geoname.feature_code == feature_code.upper())
         if feature_class:
             queries.append(Geoname.feature_class == feature_class.upper())
-        return dump_results(execute_geoname_query(queries))
+
+        results = db.session.query(Geoname.geonameid.label('id'),
+                                   Geoname.name.label('name'),
+                                   Admin1Code.name.label('admin1'),
+                                   Admin2Code.name.label('admin2'),
+                                   Geoname.country_code,
+                                   Geoname.feature_class,
+                                   Geoname.feature_code,
+                                   Geoname.population,
+                                   Geoname.elevation,
+                                   Geoname.gtopo30,
+                                   Geoname.timezone,
+                                   Geoname.moddate,
+                                   Geoname.the_geom) \
+            .outerjoin(Admin1Code,
+                       and_(Geoname.admin1 == Admin1Code.admin1,
+                            Geoname.country_code == Admin1Code.country_code)) \
+            .outerjoin(Admin2Code, and_(Geoname.admin2 == Admin2Code.admin2,
+                                        Admin1Code.admin1 == Admin2Code.admin1)) \
+            .filter(*queries) \
+            .group_by(Geoname.geonameid,
+                      Geoname.name,
+                      Admin1Code.name,
+                      Admin2Code.name,
+                      Geoname.country_code,
+                      Geoname.feature_class,
+                      Geoname.feature_code,
+                      Geoname.population,
+                      Geoname.elevation,
+                      Geoname.gtopo30,
+                      Geoname.timezone,
+                      Geoname.moddate,
+                      Geoname.the_geom).limit(int(API_QUERY_LIMIT))
+        return dump_results(results)
 
     @staticmethod
-    def reverse_geocode(lat=None, lon=None, accuracy=None, feature_code=None, feature_class=None):
+    def reverse_geocode(lat=None,
+                        lon=None,
+                        feature_code=None,
+                        feature_class=None,
+                        min_population=None,
+                        country_code=None):
         """
-        Returns a city or place based on latitude and longitude input.
+        Returns nearest city or place based on latitude and longitude input.
         :param lat: latitude
         :param lon: longitude
-        :param accuracy: how far to search outside given coordinates
         :param feature_code: Geoname Feature Code
         :param feature_class: Geoname Feature Class
+        :param min_population: minimum population
+        :param country_code: iso2 country code
         :return: list of geojson results
         """
         if lon and lat:
             queries = []
-            point = WKTElement('POINT({0} {1})'.format(lon, lat), srid=4326).ST_Buffer(accuracy)
-            queries.append(Geoname.the_geom.ST_Intersects(point))
             if feature_code:
                 queries.append(Geoname.feature_code == feature_code.upper())
             if feature_class:
                 queries.append(Geoname.feature_class == feature_class.upper())
-            return dump_results(execute_geoname_query(queries))
-        return None
+            if min_population:
+                queries.append(Geoname.population > int(min_population))
+            if country_code:
+                queries.append(Geoname.country_code == country_code.upper())
+            results = db.session.query(Geoname.geonameid.label('id'),
+                                       Geoname.name.label('name'),
+                                       Admin1Code.name.label('admin1'),
+                                       Admin2Code.name.label('admin2'),
+                                       Geoname.country_code,
+                                       Geoname.feature_class,
+                                       Geoname.feature_code,
+                                       Geoname.population,
+                                       Geoname.elevation,
+                                       Geoname.gtopo30,
+                                       Geoname.timezone,
+                                       Geoname.moddate,
+                                       Geoname.the_geom) \
+                .outerjoin(Admin1Code,
+                           and_(Geoname.admin1 == Admin1Code.admin1,
+                                Geoname.country_code == Admin1Code.country_code)) \
+                .outerjoin(Admin2Code, and_(Geoname.admin2 == Admin2Code.admin2,
+                                            Admin1Code.admin1 == Admin2Code.admin1)) \
+                .filter(*queries) \
+                .group_by(Geoname.geonameid,
+                          Geoname.name,
+                          Admin1Code.name,
+                          Admin2Code.name,
+                          Geoname.country_code,
+                          Geoname.feature_class,
+                          Geoname.feature_code,
+                          Geoname.population,
+                          Geoname.elevation,
+                          Geoname.gtopo30,
+                          Geoname.timezone,
+                          Geoname.moddate,
+                          Geoname.the_geom).order_by(
+                Comparator.distance_centroid(Geoname.the_geom,
+                                             func.Geometry(func.ST_GeographyFromText(
+                                                 'POINT({} {})'.format(lon, lat)))),
+                Geoname.population.desc()).limit(API_QUERY_LIMIT)
+            return dump_results(results)
+        return {}

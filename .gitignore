@@ -6,4 +6,4 @@
 __pycache__/
 .env
 *.ps1
-api/data/
+backend/data/
