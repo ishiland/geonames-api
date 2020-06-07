@@ -2,13 +2,13 @@
 A restful API for geocoding and reverse-geocoding the [geonames](http://www.geonames.org/) gazetteer database. 
 
 ## Quick Start
-By default `allCountries` is loaded. This is the largest geonames dataset may take awhile to load.  The
-`GEONAMES_DATA` environmental variable can optionally be changed to any of these values: 
+By default `cities500` is loaded. To change the default dataset, set the `GEONAMES_DATA` environmental variable to any 
+of these values: 
  - `cities15000` (2.2M) *all cities with a population > 15000 or capitals (ca 25.000)*
  - `cities5000` (3.7M) *all cities with a population > 5000 or PPLA (ca 50.000)*
  - `cities1000` (7.5M) *all cities with a population > 1000 or seats of adm div down to PPLA3 (ca 130.000)*
  - `cities500` (9.7M) *all cities with a population > 500 or seats of adm div down to PPLA4 (ca 185.000)*
- - `allCountries` (346M) *all countries combined in one file* 
+ - `allCountries` (346M) *all countries combined with both cities and placenames* 
  - `{iso2 code}` *specific country geoname* 
  
 ### Docker
